@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;600;900&display=swap');
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+:root{
+  --blue: #17a2b8;
+}
+html, .App{
+  background-color: #0d2431;
+  color: #fff;
+  height: 100vh;
+  position: relative;
+}
+@media screen and (max-width: 1072px){
+  .homepage{
+    flex-direction: column !important;
+  }
+  .homepage .d-width{
+    width: 100% !important;
+  }
+  .login .d-width{
+    width: 100% !important;
+  }
+}
+
+.max-width{
+  width: 150px !important;
+  color: #fff !important;
+  text-transform: capitalize;
+}
+.min-width{
+  width: 100px !important;
+  color: #fff !important;
+  text-transform: capitalize;
+}
+.link{
+  text-decoration: none;
+  color: #fff;
+}
+.link:hover{
+  text-decoration: none;
+}
